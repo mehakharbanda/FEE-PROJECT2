@@ -1,0 +1,94 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Open Sans", sans-serif;
+}
+:root {
+    --text-color: #fff;
+    --bg-color: #000;
+    --main-color: #ffa343;
+    --h1-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1rem;
+}
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background: var(--bg-color);
+    overflow: scroll;
+} */
+.weather1 .weather-text{
+    margin-top: 50px;
+    color: #ffa343;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+}
+.weather-card {
+    /* ... other styles */
+    background-color: #333; /* Default background color */
+    transition: background-color 0.3s; /* Smooth transition for color change */
+}
+
+.weather-card:hover {
+    border: 2px solid white;
+    background-color: #000; /* Change background color to black on hover */
+}
+.weather1 div.dropdown {
+    margin: 20px 0;
+    color: #fff;
+}
+.weather1 label{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+    color: white;
+}
+.weather1 select {
+    margin-left: 10px;
+    border-radius: 2px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    width: 98%;
+    padding: 10px;
+}
+.weather-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.weather-card {
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 20px;
+    position: relative;
+}
+.weather-card .weather-info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    text-align: left;
+}
+.weather-card img {
+    margin-top: 30px;
+    width: 200px;
+    height: 150px;
+}
+.weather-card h5 {
+    margin-top: 50px;
+    color: #fff;
+}

@@ -1,0 +1,158 @@
+/* .navbar a{
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 15px 22px;
+    transition: all .50s ease;
+}
+.navbar a:hover{
+    color: var(--main-color);
+}
+.h-right{
+    display: flex;
+    align-items: center;
+}
+.h-right a:first-child{
+    color: var(--text-color);
+    font-size: var(--p-font);
+    margin-right: 20px;
+}
+.h-right a{
+    vertical-align: middle;
+    font-size: 20px;
+    color: var(--text-color);
+    margin-right: 18px;
+    margin-left: 5px;
+    transition: all .50s ease;
+}
+.h-right a:hover{
+    color: var(--main-color);
+    transform: translateY(-3px);
+}
+.navbar {
+    background-color:black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .logo span {
+    color: #ffa343;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-right: 20px;
+  }
+  
+  .navbar ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    color: #ffa343;
+  }
+  
+  .h-right a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+  }
+   */
+   .navbar {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 38px;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+  }
+  
+  .logo span {
+    color: #ffa343;
+    text-decoration: none;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-right: 20px;
+  }
+  
+  .navbar ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px 22px;
+    transition: all .50s ease;
+  }
+  
+  .navbar a:hover {
+    color: #ffa343;
+    text-decoration: none;
+  }
+  
+  .h-right a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    vertical-align: middle;
+    transition: all .50s ease;
+  }
+  
+  .h-right a:hover {
+    color: #ffa343;
+    text-decoration: none;
+  }
+  
+  .logo,
+  .h-right a {
+    text-decoration: none;
+  }
+  .header-icon {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 10px;
+}
